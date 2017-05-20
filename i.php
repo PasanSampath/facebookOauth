@@ -6,8 +6,8 @@ use Facebook\Exceptions\FacebookSDKException;
 session_start();
 require_once __DIR__ . '/Facebook/autoload.php';
 $fb = new Facebook([
-  'app_id' => '183201365538420',
-  'app_secret' => '9cc66314b5aea90611f34839cd1fa6fc',
+  'app_id' => '<Enter your app ID here>',
+  'app_secret' => '<Enter your app secret here>',
   'default_graph_version' => 'v2.9',
   ]);
 $helper = $fb->getRedirectLoginHelper();
